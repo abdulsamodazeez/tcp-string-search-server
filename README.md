@@ -1,6 +1,6 @@
-# Algorithmic Sciences Introductory Task – TCP Search Server
+# TCP Search Server
 
-This repository implements the **Algorithmic Sciences Introductory Task** as specified in the PDF brief.  
+This repository implements the **TCP Search Server Task**.  
 It includes:
 
 - A **multithreaded TCP server** with optional SSL, full-line search, config-driven behavior, and detailed logging.
