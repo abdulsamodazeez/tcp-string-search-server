@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Configuration files (user-specific)
+config.ini
+
+# SSL Certificates (security)
+certs/
+*.crt
+*.key
+*.pem
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+tmp/
+*.tmp
+*.log
+
+# Benchmark outputs
+benchmarks/tmp/
+benchmarks/results*.csv
+
+# Generated reports
+reports/*.pdf
+reports/plots/
+
+# Data files (if not in repo)
+data/200k.txt
+data/*.txt
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+ # core
+pytest>=7.0
+streamlit>=1.0
+matplotlib>=3.0
+reportlab>=3.6
+psutil>=5.8
+pytest-timeout>=2.0

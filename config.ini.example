@@ -1,0 +1,29 @@
+# Configuration file for TCP Search Server
+# Copy this file to config.ini and adjust paths as needed:
+#   cp config.ini.example config.ini
+
+[server]
+# Path to the searchable file (update this path if 200k.txt is stored elsewhere)
+LINUXPATH = ./data/200k.txt
+
+# If True, re-read the file on every query (file may change dynamically).
+# If False, read file into memory once.
+REREAD_ON_QUERY = False
+
+# Enable SSL (True/False)
+SSL_ENABLED = False
+
+# SSL certificate and key files (only required if SSL_ENABLED=True)
+# Uncomment and set these if SSL is enabled:
+# SSL_CERTFILE = ./certs/server.crt
+# SSL_KEYFILE = ./certs/server.key
+
+# Search algorithm to use by default: options: 'set', 'list', 'mmap', 'binary'
+DEFAULT_ALGORITHM = set
+
+# Host & port to bind
+HOST = 0.0.0.0
+PORT = 44445
+
+# Maximum payload size in bytes
+MAX_PAYLOAD = 1024

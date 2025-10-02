@@ -1,0 +1,13 @@
+[Unit]
+Description=AlgorithmicSciences String Search Server
+After=network.target
+
+[Service]
+User=youruser
+WorkingDirectory=/path/to/algosciences-task
+ExecStart=/usr/bin/python3 server/server.py --config ./config.ini
+Restart=on-failure
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
